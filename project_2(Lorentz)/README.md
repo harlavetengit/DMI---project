@@ -21,13 +21,13 @@ The system is defined by three coupled differential equations:
 ```
 dx/dt = σ(y - x)
 dy/dt = x(ρ - z) - y  
-dz/dt = xy - βz
+dz/dt = xy - bz
 ```
 
 With classic parameters:
 - **σ = 10** (Prandtl number — fluid mixing rate)
 - **ρ = 28** (Rayleigh number — temperature difference driving convection)
-- **β = 8/3** (geometric factor)
+- **b = 8/3** (geometric factor)
 
 ---
 
